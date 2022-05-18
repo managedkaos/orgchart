@@ -1,0 +1,158 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "org_chart": {
+      "type": "object",
+      "properties": {
+        "subject": {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": "string"
+            },
+            "full_name": {
+              "type": "string"
+            },
+            "pernr": {
+              "type": "integer"
+            },
+            "photo_url": {
+              "type": "string"
+            },
+            "rostr_url": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "has_reports": {
+              "type": "boolean"
+            },
+            "work_phone": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "email",
+            "full_name",
+            "pernr",
+            "photo_url",
+            "rostr_url",
+            "url",
+            "title",
+            "has_reports",
+            "work_phone"
+          ]
+        },
+        "supervisor": {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": "string"
+            },
+            "full_name": {
+              "type": "string"
+            },
+            "pernr": {
+              "type": "integer"
+            },
+            "photo_url": {
+              "type": "string"
+            },
+            "rostr_url": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "has_reports": {
+              "type": "boolean"
+            },
+            "work_phone": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "email",
+            "full_name",
+            "pernr",
+            "photo_url",
+            "rostr_url",
+            "url",
+            "title",
+            "has_reports",
+            "work_phone"
+          ]
+        },
+        "peers": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "email": {
+                  "type": "string"
+                },
+                "full_name": {
+                  "type": "string"
+                },
+                "pernr": {
+                  "type": "integer"
+                },
+                "photo_url": {
+                  "type": "string"
+                },
+                "rostr_url": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "has_reports": {
+                  "type": "boolean"
+                },
+                "work_phone": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "email",
+                "full_name",
+                "pernr",
+                "photo_url",
+                "rostr_url",
+                "url",
+                "title",
+                "has_reports",
+                "work_phone"
+              ]
+            }
+          ]
+        },
+        "direct_reports": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "subject",
+        "supervisor",
+        "peers",
+        "direct_reports"
+      ]
+    }
+  },
+  "required": [
+    "org_chart"
+  ]
+}

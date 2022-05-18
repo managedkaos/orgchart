@@ -1,0 +1,106 @@
+{
+  "org_chart": {
+    "subject": {
+      "email": "ABCDEF",
+      "full_name": "ABCDEFGHIJKLMNOPQRSTUVWXYZAB",
+      "pernr": 152,
+      "photo_url": "ABCDEFGHIJKLMNOPQ",
+      "rostr_url": "ABCDEFGHI",
+      "url": "ABCDEFGHIJKLMNOPQRSTU",
+      "title": "ABCDEFGHIJKLMNOPQRSTUVWXYZAB",
+      "has_reports": false,
+      "work_phone": "ABCDEFGHIJKLM"
+    },
+    "supervisor": {
+      "email": "ABCDEFGHIJKLM",
+      "full_name": "ABCDEFGHIJKLMNOPQ",
+      "pernr": 864,
+      "photo_url": "ABCDEFGHIJKLMNOPQ",
+      "rostr_url": "ABCDEFGHIJK",
+      "url": "ABCDEFGHI",
+      "title": "ABCDEFGHIJKLMN",
+      "has_reports": true,
+      "work_phone": "ABCDEFGHIJ"
+    },
+    "peers": [
+      {
+        "email": "ABCDEFGHIJKLMNOPQRSTUVW",
+        "full_name": "ABCDEFGHIJKLMNOPQRSTUVWXY",
+        "pernr": 835,
+        "photo_url": "ABCD",
+        "rostr_url": "ABCDEFGHIJKL",
+        "url": "ABCDEFG",
+        "title": "ABCDEFGHIJKLMNOPQRSTU",
+        "has_reports": false,
+        "work_phone": "ABCDEFGHIJ"
+      },
+      {
+        "email": "ABCDEFGHIJ",
+        "full_name": "ABCDE",
+        "pernr": 53,
+        "photo_url": "ABCDEFGHIJKLMNOPQRSTUVWXYZA",
+        "rostr_url": "ABCDEFGHIJKLMNOPQRSTUVWX",
+        "url": "ABCDEF",
+        "title": "ABCDEFGH",
+        "has_reports": false,
+        "work_phone": "ABCDEFGHIJKLMNOP"
+      },
+      {
+        "email": "ABCDEFGHIJKLMNOPQRSTUVW",
+        "full_name": "ABCDEFGHIJKLM",
+        "pernr": 771,
+        "photo_url": "ABCDEFGHIJKLMNOPQRSTUV",
+        "rostr_url": "ABCDEFGHIJ",
+        "url": "ABCD",
+        "title": "ABCD",
+        "has_reports": false,
+        "work_phone": "ABCDEFGHIJKLMNOPQRSTUVWXYZA"
+      },
+      {
+        "email": "ABCDEFGHIJKLMNOPQRSTU",
+        "full_name": "ABCDEFGHIJKLMNOPQRSTUVWXYZAB",
+        "pernr": 383,
+        "photo_url": "ABCDEFGHIJKLMNOPQR",
+        "rostr_url": "ABCDEFGHIJKLM",
+        "url": "ABCDEFGHIJKLMNOPQR",
+        "title": "ABCDEFGHIJKLM",
+        "has_reports": false,
+        "work_phone": "ABCDEFGHIJKLMNOPQR"
+      },
+      {
+        "email": "ABCDEFGHIJ",
+        "full_name": "ABCDEFGHIJKLMN",
+        "pernr": 148,
+        "photo_url": "ABCDEFGHIJKLMNOPQ",
+        "rostr_url": "ABCDEFG",
+        "url": "ABCDEFGHI",
+        "title": "ABCDEFGH",
+        "has_reports": false,
+        "work_phone": "ABCDEFGHIJKLMNOPQRSTU"
+      },
+      {
+        "email": "ABCDEFGH",
+        "full_name": "ABCDEFGHIJKLMNOPQRSTUVWXY",
+        "pernr": 364,
+        "photo_url": "ABCDEFGH",
+        "rostr_url": "ABCDEFGHIJKLMNOPQR",
+        "url": "ABCDEFGHIJKLMNOPQRS",
+        "title": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "has_reports": false,
+        "work_phone": "ABCDEFGHIJKLMNOPQRSTUVW"
+      },
+      {
+        "email": "ABCDEFGHIJKLMNOPQRSTUV",
+        "full_name": "ABCDEFGHIJKLMNOPQRSTUVWXYZAB",
+        "pernr": 58,
+        "photo_url": "ABCDEFGHIJKLMNOPQRSTUVW",
+        "rostr_url": "ABCD",
+        "url": "ABCDEFGHIJKLMNOPQRS",
+        "title": "ABCDEFGHIJKLMNOPQRSTUVWXY",
+        "has_reports": false,
+        "work_phone": "ABCD"
+      }
+    ],
+    "direct_reports": []
+  }
+}
