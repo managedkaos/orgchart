@@ -3,13 +3,13 @@ services:
   frontend:
     build: frontend/
     ports:
-      - "30000:8080"
-    # volumes:
-    #   - ./frontend/src:/app
+      - "30000:5173"
+    volumes:
+      - "./frontend:/app"
   
   server:
     build: server/
     ports:
       - "30001:30001"
-    # volumes:
-    #   - ./server:/app
+    volumes:
+      - "./server:/app"

@@ -3,10 +3,13 @@ FROM node:18
 WORKDIR /app
 
 COPY package* .
+
 RUN npm install
 
 COPY . .
 
-EXPOSE 8080
+EXPOSE 30000
 
-RUN ["npm", "run", "dev"]
+VOLUME [ "/app" ]
+
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]

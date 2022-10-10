@@ -1,5 +1,5 @@
 import express from 'express'
-import Users from './Users/manager.json' assert { type: 'json' }
+import Users from './Users/manager.js'
 
 const router = express.Router()
 
@@ -14,4 +14,5 @@ router.get('/users', (request, response) => {
 router.post('/users', (request, response) => {
     response.send('New user created')
 })
+
 export default router

@@ -1,14 +1,14 @@
-import express from 'express'
+import express, {Application, Request, Response} from 'express'
 import router from './api/index.js'
 
-const app = express()
-const port = 30001
+const app:Application = express()
+const port:number = 30001
 
-app.get('/', (request, response) => {
+app.get('/', (request: Request, response: Response):void => {
     response.send('Sample data')
 })
 
-app.use('/api', (request, response, next) => {
+app.use('/api', (request:Request, response, next):void => {
     console.log(`${(new Date).toLocaleString()} [request]`, request.method, request.originalUrl)
     next()
 })

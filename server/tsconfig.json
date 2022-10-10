@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "ES2022",
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
         "target": "ES2022",
@@ -17,6 +17,10 @@
         }
     },
     "include": [
-        "src/**/*"
-    ]
+        "*.ts",
+        "api/**/*"
+    ],
+    "ts-node": {
+        "esm": true
+    }
 }

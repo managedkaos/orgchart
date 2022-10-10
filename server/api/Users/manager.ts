@@ -1,4 +1,4 @@
-{
+export default {
     "org_chart": {
       "subject": {
         "email": "ABCDEFGHIJKLMNOPQRSTUVWXY",

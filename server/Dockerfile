@@ -3,12 +3,13 @@ FROM node:18
 WORKDIR /app
 
 COPY package* .
+
 RUN npm install
 
 COPY . .
 
 EXPOSE 30001
 
-VOLUME [ "/app" ]
+VOLUME [ "./app" ]
 
-CMD ["node", "index.js"]
+CMD ["npm", "run", "start:dev"]
