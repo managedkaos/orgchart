@@ -1,4 +1,4 @@
-export default {
+const managers = {
     "org_chart": {
       "subject": {
         "email": "ABCDEFGHIJKLMNOPQRSTUVWXY",
@@ -260,3 +260,4 @@ export default {
     }
   }
   
+  export default managers
