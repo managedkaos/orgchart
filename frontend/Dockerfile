@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 30000
+EXPOSE 5173
 
 VOLUME [ "/app" ]
 
