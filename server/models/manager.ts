@@ -1,4 +1,4 @@
-import { User, createUsers, userFactory } from './user'
+import { User, createUsers, userFactory } from './user.js'
 
 type OrgChart = {
   subject: User,

@@ -1,5 +1,5 @@
 import express from 'express'
-import { managerFactory } from '../models/manager'
+import { managerFactory } from '../models/manager.js'
 
 const router = express.Router()
 
