@@ -1,4 +1,5 @@
 import { faker } from "@faker-js/faker";
+import { generateExampleEmail } from "./email.js";
 
 const photoUrl = faker.image.avatar();
 const rostrUrl = faker.image.people(250, 200, true);
@@ -17,7 +18,7 @@ type User = {
 
 const userFactory = (isSupervisor?: boolean) => {
   const user: User = {
-    email: faker.internet.email(),
+    email: generateExampleEmail(),
     full_name: faker.name.fullName(),
     has_reports: isSupervisor || false,
     pernr: faker.datatype.number({ min: 100, max: 999 }),
@@ -30,7 +31,7 @@ const userFactory = (isSupervisor?: boolean) => {
   return user
 }
 
-const createUsers = (amount?: number) => {
+const createUsers = (amount: number) => {
   const users: Array<User> = []
 
   for (let count=0; count < amount; count ++) {
