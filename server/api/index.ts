@@ -1,5 +1,5 @@
 import express from 'express'
-import Users from './Users/manager.js'
+import { managerFactory } from '../models/manager'
 
 const router = express.Router()
 
@@ -8,7 +8,7 @@ router.get('/', (request, response) => {
 })
 
 router.get('/users', (request, response) => {
-    response.send({body: Users})
+    response.send({body: managerFactory(5, 3)})
 })
 
 router.post('/users', (request, response) => {
