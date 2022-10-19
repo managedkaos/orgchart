@@ -18,7 +18,8 @@
     },
     "include": [
         "*.ts",
-        "api/**/*"
+        "api/**/*",
+        "models/**/*"
     ],
     "ts-node": {
         "esm": true
